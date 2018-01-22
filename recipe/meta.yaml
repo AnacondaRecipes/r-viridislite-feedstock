@@ -10,8 +10,8 @@ package:
 source:
   fn: viridisLite_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/viridisLite_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/viridisLite/viridisLite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/viridisLite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/viridisLite/viridisLite_{{ version }}.tar.gz
   sha256: 2d4d909f21c51e720bd685f05041ba158294e0a4064e0946d0bd916709818694
 
 
